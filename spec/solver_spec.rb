@@ -30,4 +30,19 @@ describe Solver do
       expect(subject.reverse('hello')).to eql('olleh')
     end
   end
+
+  describe '#fizzbuzz' do
+    it 'should return fizz for fizzbuzz(9)' do
+      expect(subject.fizzbuzz(9)).to eql('fizz')
+    end
+    it 'should return buzz for fizzbuzz(20)' do
+      expect(subject.fizzbuzz(20)).to eql('buzz')
+    end
+    it 'should return fizzbuzz for fizzbuzz(15)' do
+      expect(subject.fizzbuzz(15)).to eql('fizzbuzz')
+    end
+    it 'should return fizz for fizzbuzz(9)' do
+      expect(subject.fizzbuzz(7)).to eql('7')
+    end
+  end
 end
