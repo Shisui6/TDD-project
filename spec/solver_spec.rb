@@ -20,4 +20,14 @@ describe Solver do
       expect(subject.factorial(5)).to eql(120)
     end
   end
+
+  describe '#reverse' do
+    it 'should throw an error with wrong number of arguments' do
+      expect { subject.reverse('hello', 'hi') }.to raise_error(ArgumentError)
+    end
+
+    it 'should return olleh for hello' do
+      expect(subject.reverse('hello')).to eql('olleh')
+    end
+  end
 end
