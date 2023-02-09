@@ -5,7 +5,7 @@
 <details>
   <summary>📗 Table of Contents</summary>
   <ul>
-    <li><a href="#-meal-app-">📖 Decode Morse Code</a></li>
+    <li><a href="#-TDD-Solver-Project-">📖 TDD Solver Project</a></li>
     <li><a href="#-built-with-">🛠 Built With</a></li>
     <li><a href="#-getting-started-">💻 Getting Started</a></li>
     <li><a href="#-authors-">👥 Authors </a></li>
@@ -20,9 +20,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Decode Morse Code <a name="about-project"></a>
+# 📖 TDD Solver Project <a name="about-project"></a>
 
-**Decode Morse Code** is a simple ruby project that can decode messages written in morse code
+**TDD Solver Project** is a simple ruby project that uses test driven development to solve common coding challenges
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,7 +39,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Simple project that can decode morse code
+- Simple project that solves maths factorial
+- Reverses a given string
+- Prints "fizz", "buzz", or "fizzbuzz" depending on the given integer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,7 +66,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/Shisui6/decode-morse-code.git
+  git clone https://github.com/Shisui6/TDD-project.git
 ```
 
 ### Install
@@ -72,7 +74,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd decode-morse-code
+  cd TDD-Project
   bundle install
 ```
 
@@ -94,6 +96,22 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 - GitHub: [@Shisui6](https://github.com/Shisui6)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/okemdi-udeh)
+
+👤 **Valentine Blaze**
+
+- GitHub: [@V-blaze](https://github.com/V-Blaze)
+- Twitter: [@blaze_valentine](https://twitter.com/blaze_valentine)
+- LinkedIn: [@valentine-blaze](https://www.linkedin.com/in/valentine-blaze/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+ ## 🔭 Future Features <a name="future-features"></a> 
+
+<!-- > Describe 1 - 3 features you will add to the project. -->
+
+- Add more methods for solving unique maths problems.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
