@@ -9,7 +9,7 @@ describe Solver do
 
   describe '#factorial' do
     it 'should throw an exception for negative numbers' do
-      expect(subject.factorial(-6)).to eql('Cannot factorize negative numbers')
+      expect { subject.factorial(-6) }.to raise_error(RuntimeError, 'Cannot factorize negative numbers')
     end
 
     it 'should return for factorial(0)' do
